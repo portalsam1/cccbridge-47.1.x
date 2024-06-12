@@ -1,4 +1,5 @@
 <div align="center">
+  
   <img width="128px" alt="icon" src="./docs/icon.png">  
     
   <h1 align="center">CC:C Bridge</h1>  
@@ -9,14 +10,15 @@
   [![Blog](https://img.shields.io/badge/BLOG-222222?style=for-the-badge&logoColor=white&label=TP&labelColor=030380&link=https%3A%2F%2Ftweaked-programs.cc)](https://tweaked-programs.cc)
 
     
-  Available for **1.18.2** and **1.19.2**.  
+  Available for **1.20.1**.  
   For Forge, requires [Create](https://github.com/Creators-of-Create/Create) *(0.5.1.b or higher)* and [CC:Tweaked](https://github.com/cc-tweaked/cc-tweaked) *(1.101.2 or higher)*!  
-  For Fabric, requires [Create](https://github.com/Fabricators-of-Create/Create) *(0.5.1.b or higher)* and [CC:Restitched](https://github.com/cc-tweaked/cc-restitched) *(1.100.5-ccr or higher)*!  
+  This is a forked version that's only meant to support 1.20.1 on Forge 47.1.x or later.
+  
 </div>
   
 About
 -----
-With this Mod it is finally possible to program within [CC:T](https://github.com/cc-tweaked/cc-tweaked) ([fabric version](https://github.com/cc-tweaked/cc-restitched)) for all kinds of displays in [Create](https://github.com/Creators-of-Create/Create). ([fabric version](https://github.com/Fabricators-of-Create/Create))  
+With this Mod it is finally possible to program within [CC:T](https://github.com/cc-tweaked/cc-tweaked) for all kinds of displays in [Create](https://github.com/Creators-of-Create/Create). 
 In other words, you can display all your  ***f a n c y***  stuff with e.g. Displays *(those flip things)*, Signs, Lecterns or Nixie Tubes via the **Source Block**!  
 
 You can also get informations from blocks via the **Target Block**. For example, you can now get how much stress your network **exactly** has *(in SU)*, a death counter, how many <insert_item_name_here> you produce, etc.  
