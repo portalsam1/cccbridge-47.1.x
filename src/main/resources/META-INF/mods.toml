@@ -1,0 +1,44 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="${license}"
+issueTrackerURL="https://github.com/portalsam1/cccbridge-47.1.x/issues"
+
+[[mods]]
+modId="${archives_base_name}"
+version="${version}-${modloader}"
+displayName="CC:C Bridge 47.1.x"
+updateJSONURL=""
+displayURL="https://tweaked-programs.cc/"
+logoFile="iconHD.png"
+credits="Thanks to agnor99, who understands modding much better!"
+authors="Sammy L. Koch & Luke A. Hanssen"
+description='''This mod adds compatibility between the ComputerCraft and Create mod!
+
+Copyright ${copyright_year} Sammy L. Koch
+
+Effortlessly and stupidly backported to Forge 47.1.x by portalsam'''
+
+[[dependencies.${archives_base_name}]]
+    modId="forge"
+    mandatory=true
+    versionRange="[${forge_version},)"
+    ordering="NONE" # NONE; BEFORE; AFTER
+    side="BOTH"
+[[dependencies.${archives_base_name}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[${mc_version},)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${archives_base_name}]]
+    modId="create"
+    mandatory=true
+    versionRange="[${create_version_production},)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${archives_base_name}]]
+    modId="computercraft"
+    mandatory=true
+    versionRange="[${cc_version},)"
+    ordering="NONE"
+    side="BOTH"

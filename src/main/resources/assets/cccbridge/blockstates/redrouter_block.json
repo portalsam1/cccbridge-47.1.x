@@ -1,0 +1,16 @@
+{
+  "multipart": [
+    { "when": { "facing": "north" },
+      "apply": { "model": "cccbridge:block/redrouter_block", "uvlock": false }
+    },
+    { "when": { "facing": "east" },
+      "apply": { "model": "cccbridge:block/redrouter_block", "y": 90, "uvlock": false }
+    },
+    { "when": { "facing": "south" },
+      "apply": { "model": "cccbridge:block/redrouter_block", "y": 180, "uvlock": false }
+    },
+    { "when": { "facing": "west" },
+      "apply": { "model": "cccbridge:block/redrouter_block", "y": 270, "uvlock": false }
+    }
+  ]
+}
